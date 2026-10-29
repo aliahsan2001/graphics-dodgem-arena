@@ -1,5 +1,7 @@
 # Graphics Dodgem Arena
 
+**Portfolio focus:** combining a rendering library with a physics engine and organising an interactive scene into JavaScript modules.
+
 An interactive graphics programming project using p5.js and Matter.js. The project simulates a dodgem-style arena with cars, motion, physics, animations, and UI logic.
 
 ## Tech Stack
@@ -20,9 +22,13 @@ An interactive graphics programming project using p5.js and Matter.js. The proje
 
 ## How to Run
 
-Open `index.html` in a browser.
+Serve the repository root with a local HTTP server so assets load consistently. For example, with Python installed:
 
-For best results, use a local server such as the VS Code Live Server extension.
+```bash
+python -m http.server 8000
+```
+
+Then open **http://localhost:8000**. The VS Code Live Server extension is another option.
 
 ## What I Learned
 
